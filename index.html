@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div id="calc">
+        <p id="text">0</p>
+        <p id="change"></p>
+        <script src="script.js"></script>
+        <div id="calculator">
+            <div class="row">
+                <button class="number" value=1 onclick="numberClick(this)">1</button>
+                <button class="number" value=2 onclick="numberClick(this)">2</button>
+                <button class="number" value=3 onclick="numberClick(this)">3</button>
+            </div>
+            <div class="row">
+                <button class="number" value=4 onclick="numberClick(this)">4</button>
+                <button class="number" value=5 onclick="numberClick(this)">5</button>
+                <button class="number" value=6 onclick="numberClick(this)">6</button>
+            </div>
+            <div class="row">
+                <button class="number" value=7 onclick="numberClick(this)">7</button>
+                <button class="number" value=8 onclick="numberClick(this)">8</button>
+                <button class="number" value=9 onclick="numberClick(this)">9</button>
+            </div>
+            <div class="row">
+                <button class="operator" onclick="operator(this)">+</button>
+                <button class="number" value=0 onclick="numberClick(this)">0</button>
+                <button class="operator" onclick="operator(this)">-</button>
+            </div>
+            <div class="row">
+                <button class="operator" onclick="operator(this)">*</button>
+                <button class="operator" onclick="operator(this)">/</button>
+                <button class="operator" onclick="operator(this)">^</button>
+            </div>
+            <button id="clear" onclick="clearTotal()">AC</button>
+        </div>
+    </div>
+    
+</body>
+</html>

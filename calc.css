@@ -1,0 +1,36 @@
+#calc {
+  background-color: #cccccc;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.5%;
+  border-radius: 5px;
+}
+#calc p {
+  font-size: 1.5rem;
+  min-height: 1.2em;
+  margin: 0;
+}
+#calc button {
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 0px black solid;
+  margin: 0;
+}
+#calc button:hover {
+  background-color: rgb(175, 175, 175);
+}
+#calc .row {
+  display: flex;
+  width: 100%;
+}
+#calc .row .number {
+  width: 33.3%;
+}
+#calc .row .operator {
+  width: 33.3%;
+}
+#calc #clear {
+  width: 100%;
+}/*# sourceMappingURL=calc.css.map */
